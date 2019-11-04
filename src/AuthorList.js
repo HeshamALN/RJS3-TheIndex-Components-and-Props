@@ -1,6 +1,5 @@
 import React from "react";
 import AuthorCard from "./AuthorCard";
-import authors from "./data";
 
 const AuthorList = props => {
   const authorList = props.authors.map(authors => (
